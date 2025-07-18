@@ -73,7 +73,8 @@ const AddressBalance = ({ data, isLoading }: Props) => {
     >
       <CurrencyValue
         value={ data.coin_balance || '0' }
-        exchangeRate={ data.exchange_rate }
+        // exchangeRate={ data.exchange_rate }
+        exchangeRate={ 0.5 }
         decimals={ String(config.chain.currency.decimals) }
         currency={ config.chain.currency.symbol }
         accuracyUsd={ 2 }

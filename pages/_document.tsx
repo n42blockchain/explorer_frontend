@@ -44,7 +44,20 @@ class MyDocument extends Document {
 
           { /* FAVICON */ }
           <link rel="icon" sizes="32x32" type="image/png" href="/favicon/favicon.png"/>
-          <link rel="icon" sizes="16x16" type="image/png"href="/favicon/favicon.png"/>
+          <link rel="icon" sizes="16x16" type="image/png" href="/favicon/favicon.png"/>
+
+          <link
+            rel="icon"
+            sizes="32x32"
+            type="image/png"
+            href="/static/favicon.png"
+          />
+          <link
+            rel="icon"
+            sizes="16x16"
+            type="image/png"
+            href="/static/favicon.png"
+          />
         </Head>
         <body>
           <ColorModeScript initialColorMode={ theme.config.initialColorMode }/>
